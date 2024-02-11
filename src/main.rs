@@ -1,3 +1,6 @@
+mod eta;
+
 fn main() {
-    println!("Hello, world!");
+    let number_of_days = eta::compute_eta();
+    println!("ETA: {} days", number_of_days);
 }
